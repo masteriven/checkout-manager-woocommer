@@ -1,0 +1,188 @@
+.cmpch_clear{
+  clear: both;
+}
+
+.lockedProVersion{
+  position: relative;
+  pointer-events: none;
+}
+
+.locked{
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.locked::before{
+  content: "Pro Version - ";
+  position: relative;
+  top: -4px;
+}
+
+.lockedProVersion span{
+  font-size: 30px;
+  position: absolute;
+  top: 37%;
+  left: 24%;
+  transform: rotate(-49deg);
+  color: white;
+  background: black;
+  padding: 7px;
+  border-radius: 28px;
+}
+#toplevel_page_CMPCH-dashboard-main .dashicons-before img{
+  padding: 9px 0 0;
+  opacity: .6;
+  transform: scale(0.6);
+  position: relative;
+  left: -8px;
+  top: -4px;
+}
+.btn-outline-success{
+    position: fixed;
+    right: 21px;
+    bottom: 55px;
+    background-color: white !important;
+    /* top: 16px; */
+}
+
+.btn-outline-success:hover{
+  background-color: #28a745 !important;
+  /* top: 16px; */
+}
+.cmpch-alert-success{
+  width: 98%;
+  height: 50px;
+  background: lightgreen;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 10px;
+}
+.cmpch-alert-danger{
+  width: 98%;
+  height: 50px;
+  background: red;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 10px;
+}
+.cmpch-sec{
+  width: 98%;
+  /*height: 800px;*/
+  padding: 5px 0 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+.cmpch-row{
+  display: block;
+  padding: 5px 0 5px;
+  margin: 20px 0px;
+}
+.image-container img{
+  width: 428px;
+  position: relative;
+  left: -49px;
+  top: -8px;
+}
+
+
+.cmpch_opThumb{
+  display: inline-block;
+  width: auto;
+  height: 420px;
+  border: 2px dashed #555;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.label_Pro{
+    background-color: black;
+    position: absolute;
+    color: white;
+}
+.cmpch_opThumb .cmpch_opDP{
+  width: 356px;
+  border-radius: 5px;
+  height: 356px;
+}
+
+/* .cmpch_opThumb:nth-child(4){
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.cmpch_opThumb:nth-child(5){
+  opacity: 0.4;
+  pointer-events: none;
+} */
+
+
+
+.cmpch_opThumb label{
+  display: block;
+  padding: 10px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+.cmpch_opThumb label:hover{
+  color: blue
+}
+
+.cmpch_opThumb_mbl img{
+  height: 170px;
+}
+.cmpch_css{
+  width: 100%;
+  max-width: 550px;
+  height: 300px;
+  max-height: 400px;
+}
+
+.cmpch_progress_wrapper{
+  display: block;
+}
+.cmpch_progress_percent_wrapper{
+  display: block;
+}
+.cmpch_progress_percent_lowest{
+  display: inline-block !important;
+  width: 50% !important;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+  color: #f21e0f;
+}
+.cmpch_progress_percent_highest{
+  width: 50% !important;
+  float: right;
+  text-align: right;
+  font-weight: bold;
+  color: #19c206;
+}
+.cmpch_progress_bar_wrapper{
+  display: block;
+  height: 10px;
+  border: 1px solid #000;
+  margin-top: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cmpch_progress_bar{
+  display: block;
+  height: 11px;
+  width: 0;
+  background: red;
+  border-radius: 5px;
+}
+
+.cmpch-sec .wp-editor-wrap{
+  width: 26% !important;
+  }
+
+  #billing_first_name_field{
+    margin-right:unset;
+  }
